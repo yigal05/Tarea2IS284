@@ -21,7 +21,7 @@ int main(){
 	//    la tasa de interes y  el capital que se tiene 
 	printf("Este programa lee dos valores. Interés(%%) y Capital. Si el dinero recibido por intereses es mayor que $7000, se le indicara al inversionista\n");
 	printf("que invierta, de lo contrario se le indicara que no debe invertir\n");
-	printf("Entre el interes en % : ");
+	printf("Entre el interes en %% : ");
 	scanf("%f", &interest);
 	printf("Entre el capital en $: ");
 	scanf("%f", &capital); //guarda los intereses generados

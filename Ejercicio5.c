@@ -19,10 +19,10 @@ int main(){
 	float years=.0, salary=40000; // year guardara la antigüedad del trabador y salary el sueldo base
 	printf("Este programa leyendo por teclado la antiguedad en años, calcula el sueldo mensual que le corresponde al trabajador de una empresa");
 	printf("\nque cobra 40.000 euros anuales, el programa\ndebe realizar los calculos en funcion de los siguientes criterios:");
-	printf("\na. Si lleva mas de 10 años en la empresa se le aplica un aumento del 10%.");
-	printf("\nb. Si lleva menos de 10 años pero mas que 5 se le aplica un aumento del 7%.");
-	printf("\nc. Si lleva menos de 5 años pero mas que 3 se le aplica un aumento del 5%.");
-	printf("\nd. Si lleva menos de 3 años se le aplica un aumento del 3%. ");
+	printf("\na. Si lleva mas de 10 años en la empresa se le aplica un aumento del 10%%.");
+	printf("\nb. Si lleva menos de 10 años pero mas que 5 se le aplica un aumento del 7%%.");
+	printf("\nc. Si lleva menos de 5 años pero mas que 3 se le aplica un aumento del 5%%.");
+	printf("\nd. Si lleva menos de 3 años se le aplica un aumento del 3%%. ");
 	printf("\n\nEntre el numero de años de antiguedad del trabajador: ");
 	scanf("%f",&years);
 	if (years >10){

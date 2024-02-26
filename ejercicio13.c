@@ -25,7 +25,7 @@ int main(){
 	//calorias guardara la cantidad de calorias quemas
 	printf("Este programa calcula la cantidad de calorias quemadas por una persona enferma de 70 kg\ndependiendo de la actividad que haga y durante cuento tiempo");
 	printf("\nActividades: Dormir o Reposar \nIngrese su actividad (dormir o reposo): ");
-	scanf("%s", &activity);
+	scanf("%s", activity);
 
 	printf("Entre duracion(minutos): ");
 	scanf("%f", &time);
