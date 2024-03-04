@@ -5,7 +5,7 @@
 -Autor. Ing(c) Yigal Fabricio Rojas Acevedo
 - Nombre del lenguaje utilizado : C
 - Versión del lenguaje utilizado : C11
-- Versión del compilador utilizado : 4.7.1
+- Versión del compilador utilizado : 6.3.0
 - Versión del S.O sobre el que compilo y probo su código : Windows 11 22H2 
 - Presentado a: Doctor Ricardo Moreno Laverde
 - Universidad Tecnológica de Pereira
@@ -24,7 +24,7 @@ int main(){
 	float time = .0, calories=0; // time guardara el tiempo en que se realizo la actividad
 	//calorias guardara la cantidad de calorias quemas
 	printf("Este programa calcula la cantidad de calorias quemadas por una persona enferma de 70 kg\ndependiendo de la actividad que haga y durante cuento tiempo");
-	printf("\nActividades: Dormir o Reposar \nIngrese su actividad (dormir o reposo): ");
+	printf("\nActividades: dormir o Reposo \nIngrese su actividad (dormir o reposo): ");
 	scanf("%s", activity);
 
 	printf("Entre duracion(minutos): ");

@@ -5,15 +5,17 @@
 -Autor. Ing(c) Yigal Fabricio Rojas Acevedo
 - Nombre del lenguaje utilizado : C
 - Versión del lenguaje utilizado : C11
-- Versión del compilador utilizado : 4.7.1
+- Versión del compilador utilizado : 6.3.0
 - Versión del S.O sobre el que compilo y probo su código : Windows 11 22H2 
 - Presentado a: Doctor Ricardo Moreno Laverde
 - Universidad Tecnológica de Pereira
 - Programa de Ingeniería de Sistemas y Computación
 - Asignatura IS284 Programación II
 - Este programa recibe un numero y lo asocia a un mes del año
+- Salvedad: para valores fuera del rango [1, 12] no se garantizan resultados
 */
 #include <stdio.h>
+
 
 int main(){
 	int monthIndex =0 ; // Esta variable guarda el numero que se asociara al mes del año
@@ -41,10 +43,9 @@ int main(){
 	    printf("El mes es Octubre");
 	}else if(monthIndex == 11){ 
 	    printf("El mes es Noviembre");
-	}else{
-		printf("El mes es Diciembre");
-	} //endif
-	
+	}else if(monthIndex == 12){ 
+	    printf("El mes es Diciembre");}
+	//endif	
 	return 0;
 }
 

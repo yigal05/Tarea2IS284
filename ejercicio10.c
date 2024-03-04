@@ -5,7 +5,7 @@
 -Autor. Ing(c) Yigal Fabricio Rojas Acevedo
 - Nombre del lenguaje utilizado : C
 - Versión del lenguaje utilizado : C11
-- Versión del compilador utilizado : 4.7.1
+- Versión del compilador utilizado : 6.3.0
 - Versión del S.O sobre el que compilo y probo su código : Windows 11 22H2 
 - Presentado a: Doctor Ricardo Moreno Laverde
 - Universidad Tecnológica de Pereira
@@ -23,7 +23,7 @@ int main(){
 	float grade1=.0, grade2=.0, grade3=0 ;
 	// almacenara la primer nota , almacenara la segunda nota , almacenara la tercer nota
 	printf("Este programa determina si un estudiante aprueba un curso.\nRecibe 3 notas [0.0,5.0] aprueba si su promedio es mayor o igual 3.0\n");
-	printf("reprueba en caso contrario\nEntre nota 1: ");
+	printf("Reprueba en caso contrario\nEntre nota 1: ");
 	scanf("%f", &grade1);
 	printf("Entre nota 2 :");
 	scanf("%f", &grade2);

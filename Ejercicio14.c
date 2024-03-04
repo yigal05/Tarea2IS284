@@ -5,7 +5,7 @@
 -Autor. Ing(c) Yigal Fabricio Rojas Acevedo
 - Nombre del lenguaje utilizado : C
 - Versión del lenguaje utilizado : C11
-- Versión del compilador utilizado : 4.7.1
+- Versión del compilador utilizado : 6.3.0
 - Versión del S.O sobre el que compilo y probo su código : Windows 11 22H2 
 - Presentado a: Doctor Ricardo Moreno Laverde
 - Universidad Tecnológica de Pereira
@@ -13,6 +13,7 @@
 - Asignatura IS284 Programación II
 - Este programa lee una clave y un precio a pagar , dependiendo de la clave
   ingresada hara cierto descuento.
+- Salvedad: Para valores fuera de este rango, no garantizamos los resultados.
 */
 #include <stdio.h>
 

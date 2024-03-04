@@ -5,7 +5,7 @@
 -Autor. Ing(c) Yigal Fabricio Rojas Acevedo
 - Nombre del lenguaje utilizado : C
 - Versión del lenguaje utilizado : C11
-- Versión del compilador utilizado : 4.7.1
+- Versión del compilador utilizado : 6.3.0
 - Versión del S.O sobre el que compilo y probo su código : Windows 11 22H2 
 - Presentado a: Doctor Ricardo Moreno Laverde
 - Universidad Tecnológica de Pereira
@@ -26,10 +26,6 @@ int main(){
 	printf("Entre el capital en $: ");
 	scanf("%f", &capital); //guarda los intereses generados
 	float interests =  (interest*capital/100.0);
-	if (interests>7000){
-		printf("INVIERTA, SU SALDO SERA $%.0f",capital +  interests);
-	}else{
-		printf("NO INVIERTA");
-	} //endif
+	(interests>7000) ? printf("INVIERTA, SU SALDO SERA $%.0f",capital +  interests) : printf("NO INVIERTA");
 	return 0;
 }

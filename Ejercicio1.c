@@ -5,7 +5,7 @@
 -Autor. Ing(c) Yigal Fabricio Rojas Acevedo
 - Nombre del lenguaje utilizado : C
 - Versión del lenguaje utilizado : C11
-- Versión del compilador utilizado : 4.7.1
+- Versión del compilador utilizado : 6.3.0
 - Versión del S.O sobre el que compilo y probo su código : Windows 11 22H2 
 - Presentado a: Doctor Ricardo Moreno Laverde
 - Universidad Tecnológica de Pereira
@@ -17,12 +17,12 @@
 #include <stdio.h>
 
 int main(){
-	float x =0; //Esta variable almacenara el numero que se quiere saber si es primo o no
+	float number =0; //Esta variable almacenara el numero que se quiere saber si es primo o no
 	printf("Este programa, lee un numero entre uno(1) y cinco(5), e imprime\nsi es primo o no.\n");
 	printf("Entre un numero: ");
 
-	scanf("%f", &x);
-	if(x == 4 || x == 1 ){
+	scanf("%f", &number);
+	if(number == 4 || number == 1 ){
 		printf("El numero no es primo");
 	}else{
 		printf("El numero es primo");

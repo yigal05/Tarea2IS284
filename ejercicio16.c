@@ -5,7 +5,7 @@
 -Autor. Ing(c) Yigal Fabricio Rojas Acevedo
 - Nombre del lenguaje utilizado : C
 - Versión del lenguaje utilizado : C11
-- Versión del compilador utilizado : 4.7.1
+- Versión del compilador utilizado : 6.3.0
 - Versión del S.O sobre el que compilo y probo su código : Windows 11 22H2 
 - Presentado a: Doctor Ricardo Moreno Laverde
 - Universidad Tecnológica de Pereira
@@ -23,7 +23,7 @@ int main(){
 total de la compra, se decidira que hacer para pagar al fabricante.\n\
 Si el monto total de la compra excede de $500000 la empresa tendra la capacidad de invertir de su propio\n\
 dinero un 55%% del monto de la compra, pedir prestado al banco un 30%% y el resto lo pagara solicitando un\n\
-crédito al fabricante.\n\
+credito al fabricante.\n\
 Si el monto total de la compra no excede de $500000 la empresa tendra capacidad de invertir de su propio\n\
 dinero un 70%% y el restante 30%% lo pagara solicitando credito al fabricante. El fabricante cobra por concepto\n\
 de intereses un 20%%  sobre la cantidad que se le pague a credito.");

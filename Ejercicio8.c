@@ -5,7 +5,7 @@
 -Autor. Ing(c) Yigal Fabricio Rojas Acevedo
 - Nombre del lenguaje utilizado : C
 - Versión del lenguaje utilizado : C11
-- Versión del compilador utilizado : 4.7.1
+- Versión del compilador utilizado : 6.3.0
 - Versión del S.O sobre el que compilo y probo su código : Windows 11 22H2 
 - Presentado a: Doctor Ricardo Moreno Laverde
 - Universidad Tecnológica de Pereira
@@ -18,11 +18,11 @@
 int main(){
 	float number1 =.0, number2=.0,number3=.0;
 	// almacena primer numero /almacena segundo numero / almacena tercer numero
-	printf("Este programa recibe 3 numeros e imprime por pantalla si el\nproducto del primero por el segundo es igual al tercero\nEntre numero 1: ");
+	printf("Este programa recibe 3 numeros e imprime por pantalla si el\nproducto del primero por el segundo es igual al tercero\nEntre el primer numero: ");
 	scanf("%f",&number1);
-	printf("Entre el primer numero: ");
-	scanf("%f",&number2);
 	printf("Entre el segundo numero: ");
+	scanf("%f",&number2);
+	printf("Entre el tercer numero: ");
 	scanf("%f",&number3);
 	if ( number1*number2 == number3){
 		printf("Si, %fx%f=%f ",number1,number2,number3);

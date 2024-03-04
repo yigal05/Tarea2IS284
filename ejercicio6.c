@@ -5,7 +5,7 @@
 -Autor. Ing(c) Yigal Fabricio Rojas Acevedo
 - Nombre del lenguaje utilizado : C
 - Versión del lenguaje utilizado : C11
-- Versión del compilador utilizado : 4.7.1
+- Versión del compilador utilizado : 6.3.0
 - Versión del S.O sobre el que compilo y probo su código : Windows 11 22H2 
 - Presentado a: Doctor Ricardo Moreno Laverde
 - Universidad Tecnológica de Pereira
@@ -16,10 +16,10 @@
 #include <stdio.h>
 
 int main(){
-	float x =.0; //Guarda el numero que se quiere saber si es mayor o menor 100
+	float number =.0; //Guarda el numero que se quiere saber si es mayor o menor 100
 	printf("Este programa dice si un numero es mayor o menor a 100\nEntre numero: ");
-	scanf("%f",&x);
-	if (x >100){
+	scanf("%f",&number);
+	if (number >100){
 		printf("Es mayor a 100");
 	}else{
 		printf("No es mayor que 100");

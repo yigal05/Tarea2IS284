@@ -5,7 +5,7 @@
 -Autor. Ing(c) Yigal Fabricio Rojas Acevedo
 - Nombre del lenguaje utilizado : C
 - Versión del lenguaje utilizado : C11
-- Versión del compilador utilizado : 4.7.1
+- Versión del compilador utilizado : 6.3.0
 - Versión del S.O sobre el que compilo y probo su código : Windows 11 22H2 
 - Presentado a: Doctor Ricardo Moreno Laverde
 - Universidad Tecnológica de Pereira
@@ -24,9 +24,5 @@ Salvedad: Para valores fuera de este rango, no garantizamos los resultados.");
 	scanf("%i",&number);
 	int end = number%10; //Esta variable guarda el ultimo digito de number
 	int start = number/100; //Esta variable guarda el primer digito de number
-	if ( end == start){
-		printf("El numero es capicuo");
-	}else{
-		printf("El numero no es capicuo");
-	} //endif
+	(end == start)? printf("El numero es capicuo") : printf("El numero no es capicuo");
 }
